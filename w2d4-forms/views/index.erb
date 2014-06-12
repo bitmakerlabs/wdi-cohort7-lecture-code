@@ -1,0 +1,61 @@
+<form action="/films" method="post">
+  <!-- input text / date / time / email / tel / number / search -->
+    <label for="film-year">Date</label>
+<input id="film-year" type="date" name="title" />
+  <input type="time" name="title" />
+  <input type="email" name="title" />
+  <input type="tel" name="title" />
+  <input type="number" name="title" />
+
+  <!-- textarea -->
+  <textarea name="description" id="film-description">This is a textarea</textarea>
+
+  <!-- input radio / checkbox -->
+  <div>
+    <label>
+      <input type="radio" name="rating" value="1" /> 1 Star
+    </label>
+    <label><input type="radio" name="rating" value="2" /> 2 Stars</label>
+    <label><input type="radio" name="rating" value="3" /> 3 Stars</label>
+    <label><input type="radio" name="rating" value="4" /> 4 Stars</label>
+    <label><input type="radio" name="rating" value="5" /> 5 Stars</label>
+  </div>
+  <div>
+    <input type="checkbox" name="favourites" value="1" /> 1 Star
+    <input type="checkbox" name="favourites" value="2" /> 2 Stars
+    <input type="checkbox" name="favourites" value="3" /> 3 Stars
+    <input type="checkbox" name="favourites" value="4" /> 4 Stars
+    <input type="checkbox" name="favourites" value="5" /> 5 Stars
+  </div>
+
+  <!-- label -->
+  <!-- select / option -->
+  <select name="film-genre" id="film-genre">
+    <option value="">Please select a Genre</option>
+    <option value="Western">Western</option>
+    <option value="Mystery">Mystery</option>
+    <option value="Western">Western</option>
+    <option value="Western">Western</option>
+    <option value="Western">Western</option>
+    <option value="Western">Western</option>
+  </select>
+
+  <input type="hidden" name="_method" value="post" />
+
+  <input type="file" name="poster-upload" />
+
+  <!-- input submit / button -->
+
+  <!-- <input type="submit" value="GO!" /> -->
+
+  <button type="submit">
+    <h1>SUBMIT THIS FORM!</h1>
+  </button>
+  <!-- <input type="submit" value="Submit" /> -->
+
+  <!-- hidden -->
+  <!-- file -->
+
+  <!-- fieldset / legend -->
+  <!-- placeholder / required -->
+</form>

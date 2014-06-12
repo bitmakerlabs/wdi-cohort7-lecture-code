@@ -1,0 +1,75 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 24px;
+  color: #222;
+}
+
+.form-container {
+  width: 75%;
+  margin: 0 auto;
+}
+
+form {
+  display: block;
+  margin: 0;
+  padding: 1em;
+  background-color: #f0f0f0;
+}
+
+input,
+textarea {
+  display: inline-block;
+  font-size: 32px;
+  font-family: Georgia, Times, serif;
+}
+
+[type=radio],
+[type=checkbox] {
+  display: inline-block;
+  vertical-align: middle;
+  width: 64px;
+  height: 64px;
+}
+
+.field {
+    margin-bottom: 1em;
+}
+
+label {
+  display: inline-block;
+  width: 25%;
+}
+
+[type=text],
+[type=email] {
+  padding: 0.25em 0.5em;
+}
+
+.btn {
+    border: 0;
+    background-color: blue;
+    color: #fff;
+    font-size: 0.5em;
+    text-transform: uppercase;
+    font-family: cursive;
+    padding: 1em;
+    border-radius: 7px;
+}
+.btn > img {
+    float: left;
+    /* display: inline-block; */
+}
+.btn.btn-submit {
+    background-color: tomato;
+    border: 8px dotted black;
+}

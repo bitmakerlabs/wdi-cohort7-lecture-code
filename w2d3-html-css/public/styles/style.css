@@ -1,0 +1,38 @@
+h1 {
+  font-size: 48px;
+  color: tomato;
+}
+
+li {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background-color: yellow;
+}
+
+#first-id {
+  background-color: green;
+}
+
+.first {
+  background-color: red;
+}
+
+.first {
+  background-color: purple;
+}
+
+.menu li {
+  background-color: orange;
+}
+
+.menu > li {
+  background-color: black;
+}
+
+#second {
+  background-color: blue;
+}
+
+a:hover {
+  color: white;
+  background-color: blue;
+}
